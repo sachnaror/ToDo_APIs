@@ -1,4 +1,4 @@
-# Tutorial: Build a REST API with Django Rest Framework and MySQL
+# REST API with Django Rest Framework and MySQL
 
 This repository contains a tutorial on how to create a basic REST API with Django Rest Framework and MySQL.
 
@@ -20,6 +20,9 @@ To install the required Python packages, run:
 pip install -r requirements.txt
 
 ```
+
+<img width="1047" alt="image" src="https://github.com/sachnaror/ToDo_APIs/assets/9551754/57f16249-775c-423a-aabc-d0d217522d62">
+
 
 ## Usage
 
