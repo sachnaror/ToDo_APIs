@@ -15,16 +15,18 @@ Before getting started, ensure you have the following prerequisites installed:
 
 To install the required Python packages, run:
 
-'''
+```python
+
 pip install -r requirements.txt
 
-'''
+```
 
 ## Usage
 
 To start the server, navigate to the `todoapi/` directory and run the following command:
 
-'''
+```python
+
 python manage.py runserver
 
-'''
+```
