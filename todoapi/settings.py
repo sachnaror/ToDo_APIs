@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-$4&@p7jo#u8e+*f+onpe203f6@ermkh966v&@bm$+w2*37p$)4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,8 +37,23 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'rest_framework',
+    'todolist.apps.TodolistConfig',
+
+
 ]
 
+DATABASES = {
+    'default': {
+        # MySQL engine. Powered by the mysqlclient module.
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'todos',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
