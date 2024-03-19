@@ -20,7 +20,6 @@ pip install -r requirements.txt
 
 '''
 
-
 ## Usage
 
 To start the server, navigate to the `todoapi/` directory and run the following command:
